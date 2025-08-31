@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-31T18:26:53 EEST" name="FastShopping Suite" finished-at="2025-08-31T18:26:53 EEST" duration-ms="275">
+    <groups>
+    </groups>
+    <test started-at="2025-08-31T18:26:53 EEST" name="CreateNewList Test" finished-at="2025-08-31T18:26:53 EEST" duration-ms="275">
+      <class name="com.fastshopping.testcases.createNewList">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.fastshopping.testcases.createNewList@7b993c65]" started-at="2025-08-31T18:26:53 EEST" name="setUpSuite" finished-at="2025-08-31T18:26:53 EEST" duration-ms="461" status="FAIL">
+          <exception class="org.apache.poi.openxml4j.exceptions.OLE2NotOfficeXmlFileException">
+            <message>
+              <![CDATA[The supplied data appears to be in the OLE2 Format. You are calling the part of POI that deals with OOXML (Office Open XML) Documents. You need to call a different part of POI to process this data (eg HSSF instead of XSSF)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.poi.openxml4j.exceptions.OLE2NotOfficeXmlFileException: The supplied data appears to be in the OLE2 Format. You are calling the part of POI that deals with OOXML (Office Open XML) Documents. You need to call a different part of POI to process this data (eg HSSF instead of XSSF)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:149)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:189)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:156)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:351)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:64)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:315)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:289)
+at com.fastshopping.utility.ExcelDataProvider.<init>(ExcelDataProvider.java:17)
+at com.fastshopping.pages.BaseClass.setUpSuite(BaseClass.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.poi.openxml4j.exceptions.OLE2NotOfficeXmlFileException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:com.fastshopping.testcases.createNewList@7b993c65]" started-at="2025-08-31T18:26:53 EEST" name="driverSetup" finished-at="2025-08-31T18:26:53 EEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="testGoToShoppingLists()[pri:0, instance:com.fastshopping.testcases.createNewList@7b993c65]" started-at="2025-08-31T18:26:53 EEST" name="testGoToShoppingLists" finished-at="2025-08-31T18:26:53 EEST" duration-ms="1" status="SKIP">
+          <exception class="org.apache.poi.openxml4j.exceptions.OLE2NotOfficeXmlFileException">
+            <message>
+              <![CDATA[The supplied data appears to be in the OLE2 Format. You are calling the part of POI that deals with OOXML (Office Open XML) Documents. You need to call a different part of POI to process this data (eg HSSF instead of XSSF)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.poi.openxml4j.exceptions.OLE2NotOfficeXmlFileException: The supplied data appears to be in the OLE2 Format. You are calling the part of POI that deals with OOXML (Office Open XML) Documents. You need to call a different part of POI to process this data (eg HSSF instead of XSSF)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:149)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:189)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:156)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:351)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:64)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:315)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:289)
+at com.fastshopping.utility.ExcelDataProvider.<init>(ExcelDataProvider.java:17)
+at com.fastshopping.pages.BaseClass.setUpSuite(BaseClass.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.poi.openxml4j.exceptions.OLE2NotOfficeXmlFileException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoToShoppingLists -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.fastshopping.testcases.createNewList@7b993c65]" started-at="2025-08-31T18:26:53 EEST" name="tearDownMethod" finished-at="2025-08-31T18:26:53 EEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="driverTearDown()[pri:0, instance:com.fastshopping.testcases.createNewList@7b993c65]" started-at="2025-08-31T18:26:53 EEST" name="driverTearDown" finished-at="2025-08-31T18:26:53 EEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverTearDown -->
+      </class> <!-- com.fastshopping.testcases.createNewList -->
+    </test> <!-- CreateNewList Test -->
+  </suite> <!-- FastShopping Suite -->
+</testng-results>

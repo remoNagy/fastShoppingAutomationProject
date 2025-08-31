@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-31T22:36:15 EEST" name="FastShopping Suite" finished-at="2025-08-31T22:37:26 EEST" duration-ms="71808">
+    <groups>
+    </groups>
+    <test started-at="2025-08-31T22:36:15 EEST" name="Create Second List" finished-at="2025-08-31T22:37:26 EEST" duration-ms="71808">
+      <class name="com.fastshopping.testcases.CreateList2">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.fastshopping.testcases.CreateList2@2415fc55]" started-at="2025-08-31T22:36:14 EEST" name="setUpSuite" finished-at="2025-08-31T22:36:15 EEST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:com.fastshopping.testcases.CreateList2@2415fc55]" started-at="2025-08-31T22:36:15 EEST" name="driverSetup" finished-at="2025-08-31T22:36:37 EEST" duration-ms="22078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="testGoToShoppingLists()[pri:2, instance:com.fastshopping.testcases.CreateList2@2415fc55]" started-at="2025-08-31T22:36:37 EEST" name="testGoToShoppingLists" finished-at="2025-08-31T22:37:23 EEST" duration-ms="45880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoToShoppingLists -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.fastshopping.testcases.CreateList2@2415fc55]" started-at="2025-08-31T22:37:23 EEST" name="tearDownMethod" finished-at="2025-08-31T22:37:23 EEST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGoToShoppingLists status=SUCCESS method=CreateList2.testGoToShoppingLists()[pri:2, instance:com.fastshopping.testcases.CreateList2@2415fc55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="driverTearDown()[pri:0, instance:com.fastshopping.testcases.CreateList2@2415fc55]" started-at="2025-08-31T22:37:23 EEST" name="driverTearDown" finished-at="2025-08-31T22:37:26 EEST" duration-ms="3636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverTearDown -->
+      </class> <!-- com.fastshopping.testcases.CreateList2 -->
+    </test> <!-- Create Second List -->
+  </suite> <!-- FastShopping Suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FastShopping Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Create Second List(failed)" verbose="0">
+    <classes>
+      <class name="com.fastshopping.testcases.CreateList2">
+        <methods>
+          <include name="testGoToShoppingLists"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpSuite"/>
+          <include name="driverTearDown"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- com.fastshopping.testcases.CreateList2 -->
+    </classes>
+  </test> <!-- Create Second List(failed) -->
+</suite> <!-- Failed suite [FastShopping Suite] -->
